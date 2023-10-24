@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #6d597a;
+}
+
+/* navbar css starts here  */
+.image{
+    background: rgba(163, 155, 202, 0.5) url('bank.jpg.jpg');
+    background-size: cover;
+}
+
+
+
+.bg-light{
+    background-color: #8bcbe0!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color{
+    background-color: #9191da;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color:  #0e0d0d!important;
+}
+
+.nav-link{
+    color: #131212!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #76e989;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    color: #232121;
+    padding: 3rem;
+    margin-bottom: 1vh;
+    text-align: center ;
+    font-size: large;
+    font-family: cursive;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.go-transection{
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #171616;
+    color: #68c4f2!important;
+    transition: 0.3s;
+}
+
+.go-transection:hover{
+    text-decoration: currentColor;
+    background-color: #095d8a;
+    font-style: underline;
+    
+}
+
+
+
+/* footer css starts here */
+footer{
+    background-color:  #65bbe9;
+    margin-bottom: 0%;
+}
+
+.heading{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e!important;
+}
+
+.linkedin{
+    color: #0077b5!important;
+}
+
+.twitter{
+    color: #0f1cdc!important;
+}
+
+/* footer css ends here  */
